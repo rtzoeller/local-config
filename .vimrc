@@ -1,3 +1,6 @@
+" Fix backspace functionality
+set backspace=indent,eol,start
+
 " Enable syntax highlighting
 syntax on
 
@@ -17,3 +20,7 @@ set ruler
 " Ignore case during searches unless an uppercase char. is present
 set ignorecase
 set smartcase
+
+" Show filepath at the bottom of the window
+set laststatus=2
+set statusline+=%F
