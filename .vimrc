@@ -22,7 +22,7 @@ set smartcase
 
 " Show filepath at the bottom of the window
 set laststatus=2
-set statusline+=%F\ %=%l\:%c
+set statusline=%F\ %=%l\:%c\ %P
 
 " 80 character line length
 set colorcolumn=81
