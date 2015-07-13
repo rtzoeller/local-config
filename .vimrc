@@ -38,3 +38,6 @@ set incsearch
 set showmatch
 set ignorecase
 set smartcase
+
+" Show commands while typing
+set showcmd
