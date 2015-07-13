@@ -31,3 +31,10 @@ set colorcolumn=81
 " More natural feeling split options
 set splitbelow
 set splitright
+
+" Search configuration
+set hlsearch
+set incsearch
+set showmatch
+set ignorecase
+set smartcase
