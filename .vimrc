@@ -41,3 +41,6 @@ set smartcase
 
 " Show commands while typing
 set showcmd
+
+" Keep lines while scrolling
+set scrolloff=5
