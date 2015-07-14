@@ -44,3 +44,8 @@ set showcmd
 
 " Keep lines while scrolling
 set scrolloff=5
+
+" Load additional local configurations
+if filereadable(glob("~/.vimrc.local"))
+    source ~/.vimrc.local
+endif
