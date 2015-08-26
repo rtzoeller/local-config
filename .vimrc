@@ -45,6 +45,9 @@ set showcmd
 " Keep lines while scrolling
 set scrolloff=5
 
+" Don't make me wait when inserting in blocks
+set ttimeoutlen=10
+
 " Load additional local configurations
 if filereadable(glob("~/.vimrc.local"))
     source ~/.vimrc.local
