@@ -48,6 +48,9 @@ set scrolloff=5
 " Don't make me wait when inserting in blocks
 set ttimeoutlen=10
 
+" Let <F5> strip away trailing whitespace
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
 " Load additional local configurations
 if filereadable(glob("~/.vimrc.local"))
     source ~/.vimrc.local
