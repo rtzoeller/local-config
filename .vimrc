@@ -25,8 +25,11 @@ set smartcase
 set laststatus=2
 set statusline=%f\ %=%l\:%c\ %6P
 
-" 80 character line length
-set colorcolumn=81
+" Set line limits based on filetype
+" We use 80 characters for C/C++, 120 for Python
+au FileType c set colorcolumn=81
+au FileType cpp set colorcolumn=81
+au FileType python set colorcolumn=121
 
 " More natural feeling split options
 set splitbelow
