@@ -16,6 +16,7 @@ set smarttab
 
 " Show line information
 set number
+set cursorline
 
 " Ignore case during searches unless an uppercase char. is present
 set ignorecase
