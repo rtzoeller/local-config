@@ -26,6 +26,9 @@ set smartcase
 set laststatus=2
 set statusline=%f\ %=%l\:%c\ %6P
 
+" Show completion options on tab
+set wildmenu
+
 " Set line limits based on filetype
 " We use 80 characters for C/C++, 120 for Python
 au FileType c set colorcolumn=81
