@@ -17,5 +17,8 @@
 [commit]
     verbose = true
 
+[pull]
+	ff = only
+
 [sendemail]
 	smtpuser = rtzoeller@rtzoeller.com
