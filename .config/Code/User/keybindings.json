@@ -1,0 +1,23 @@
+[
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly",
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly",
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly",
+    },
+    {
+        "key": "ctrl+k tab",
+        "command": "type",
+        "args": { "text": "\t" },
+        "when": "editorTextFocus && !editorReadonly",
+    },
+]

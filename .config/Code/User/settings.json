@@ -1,0 +1,8 @@
+{
+    "editor.cursorSurroundingLines": 5,
+    "editor.renderWhitespace": "boundary",
+    "files.associations": {
+        "*.mak": "makefile"
+    },
+    "files.trimTrailingWhitespace": true,
+}
