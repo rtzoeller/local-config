@@ -20,5 +20,8 @@
 [pull]
     ff = only
 
+[init]
+    defaultBranch = main
+
 [sendemail]
     smtpuser = rtzoeller@rtzoeller.com
