@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+set -euxo pipefail
+
+sudo dnf update --refresh
+
+rustup update
+cargo install-update -a
+cargo cache verify --clean-corrupted
+
