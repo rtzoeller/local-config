@@ -17,6 +17,9 @@
 [commit]
     verbose = true
 
+[fetch]
+    parallel = 16
+
 [pull]
     ff = only
 
